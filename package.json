@@ -10,10 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "@langchain/core": "^1.2.1",
+    "@langchain/google-genai": "^2.2.0",
     "africastalking": "^0.8.0",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "langchain": "^1.5.2"
   }
 }
